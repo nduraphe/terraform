@@ -1,3 +1,4 @@
+/*
 resource "aws_instance" "MyWebServer" {
   ami           = module.ami.latest_ami
   instance_type = "t2.micro"
@@ -11,3 +12,4 @@ resource "aws_instance" "MyWebServer" {
     Name = "MyWebServer"
   }
 }
+*/
