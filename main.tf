@@ -1,4 +1,5 @@
-resource "aws_instance" "MyWebServer" {
+/*
+  resource "aws_instance" "MyWebServer" {
   ami           = module.ami.latest_ami
   instance_type = "t2.micro"
   vpc_security_group_ids = [
@@ -11,3 +12,4 @@ resource "aws_instance" "MyWebServer" {
     Name = "MyWebServer"
   }
 }
+*/   
