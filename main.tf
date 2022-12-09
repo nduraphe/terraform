@@ -11,3 +11,4 @@ resource "aws_instance" "MyWebServer" {
     Name = "MyWebServer"
   }
 }
+
